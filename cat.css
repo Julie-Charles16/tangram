@@ -1,0 +1,21 @@
+.cat .squareRed{
+    transform:translate(485px, 155px) rotate(45deg);
+}
+.cat .triangleGreen{
+    transform: translate(430px, 340px) rotate(225deg);
+}
+.cat .triangleLime{
+    transform: translate(565px, 75px)rotate(225deg);
+}   
+.cat .triangleBlue{
+    transform: translate(405px, 75px) rotate(45deg);
+}   
+.cat .triangleYellow {
+    transform: translate(383px, 453px) rotate(180deg);
+}
+.cat .trapezePurple{
+    transform: translate(200px, 587px) rotate(45deg) skew(-45deg); 
+}
+.cat .triangleOrange{
+    transform: translate(465px, 325px) rotate(45deg);
+}

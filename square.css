@@ -1,0 +1,21 @@
+.square .squareRed{
+    transform:translate(482px, 293px) rotate(45deg);
+}
+.square .triangleGreen{
+    transform: translate(340px, 75px) rotate(135deg);
+}
+.square .triangleLime{
+    transform: translate(565px, 210px)rotate(225deg);
+}   
+.square .triangleBlue{
+    transform: translate(396px, 375px) rotate(315deg);
+}   
+.square .triangleYellow {
+    transform: translate(176px, 237px) rotate(45deg);
+}
+.square .trapezePurple{
+    transform: translate(335px, 437px) skew(-45deg); 
+}
+.square .triangleOrange{
+    transform: translate(468px, 352px) rotate(90deg);
+}

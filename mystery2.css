@@ -1,0 +1,28 @@
+.mystery2 .squareRed{
+    transform:translate(234px, 82px) rotate(45deg);
+}
+.mystery2 .triangleBlue{
+    transform: translate(349px, 418px) rotate(-46deg);
+}   
+
+.mystery2 .triangleLime{
+    transform: translate(262px, 297px) rotate(272deg);
+}   
+
+.mystery2 .triangleYellow {
+    transform: translate(377px, 138px) rotate(179deg);
+}
+
+
+.mystery2 .triangleGreen{
+    transform: translate(382px, 366px) rotate(-1deg);
+}
+
+.mystery2 .trapezePurple{
+    transform: translate(353px, 498px)  rotate(44deg)  skew(-45deg) ;
+    
+}
+
+.mystery2 .triangleOrange{
+    transform: translate(611px, 431px) rotate(-181deg);
+}

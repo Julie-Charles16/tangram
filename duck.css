@@ -1,0 +1,21 @@
+.duck .squareRed{
+    transform:translate(583px, 93px) rotate(45deg);
+}
+.duck .triangleGreen{
+    transform: translate(280px, 135px) rotate(135deg);
+}
+.duck .triangleLime{
+    transform: translate(665px, 175px)rotate(-45deg);
+}   
+.duck .triangleBlue{
+    transform: translate(400px, 500px) rotate(315deg);
+}   
+.duck .triangleYellow {
+    transform: translate(330px, 248px) rotate(90deg);
+}
+.duck .trapezePurple{
+    transform: translate(535px, 220px) rotate(225deg) skew(45deg); 
+}
+.duck .triangleOrange{
+    transform: translate(480px, 285px) rotate(45deg);
+}

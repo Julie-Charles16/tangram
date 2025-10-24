@@ -1,0 +1,200 @@
+@font-face {
+    font-family: enfant;
+    src: url(ShadowsIntoLight-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    background-image:url("https://i.ytimg.com/vi/cfsdA9QHp18/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 4.7em;
+    font-family: enfant;
+    color: #3ab1ff;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.darkmode{
+    background-image: url(soleil.avif);
+    width: 100px;
+    height: 100px;
+    background-repeat: none;
+    background-size: contain;
+    border: none;
+}
+
+.dark .darkmode{
+    background-image: url(lune.png);
+    background-color: #000;
+    background-size: 130%;
+    background-position: center;
+}
+
+.darkmode:hover{
+    transform: scale(1.5);
+}
+
+.darkmode{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+
+nav button{
+    height: 25px;
+    z-index: 999;
+    background-color: #3ab1ff;
+    color: #F8F8F8;
+    width: 80px;
+    border-radius: 0.6rem;
+    border: 1px solid  #F8F8F8;
+    font-family: enfant;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav button:hover{
+    transform: scale(1.5);
+    transition: transform 1000ms ease
+}
+
+.dark nav button{
+    
+    background-color: rgb(0, 0, 0);
+    color: #e0d8d8;
+    width: 80px;
+    border-radius: 0.6rem;
+    border: none;
+    box-shadow: 1px 3px 15px 0 white;
+   
+}
+
+@keyframes multicolored-shadow {
+    0% {
+        box-shadow: 0 0 10px 5px red, 0 0 10px 5px blue, 0 0 10px 5px green;
+      }
+      50% {
+        box-shadow: 0 0 10px 5px yellow, 0 0 10px 5px cyan, 0 0 10px 5px magenta;
+      }
+      100% {
+        box-shadow: 0 0 10px 5px purple, 0 0 10px 5px orange, 0 0 10px 5px lime;
+    }  
+}
+.dark nav button:hover{
+    animation: multicolored-shadow 5s infinite alternate;
+}
+
+
+.container{
+    width: 50vw;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.container *{
+    position: absolute;
+}
+
+.squareRed{
+    border-left: 113px solid #F99A9C;
+    border-top: 113px solid #F99A9C;
+    transform: translate(577px, 307px)rotate(135deg);
+}
+
+.triangleBlue{
+    border-left: 113px solid transparent;
+    border-top: 113px solid #8AC0DE;
+    transform: translate(459px, 335px) rotate(179deg);
+}
+
+.triangleGreen{
+    border-left: 225px solid transparent;
+    border-top: 225px solid #70AE98;
+    transform: translate(380px, 126px)  rotate(-90deg)  skew(-45deg) ;
+}
+
+.triangleLime{
+    border-left: 112px solid transparent;
+    border-top: 112px solid #ADDDCE;
+    transform: translate(650px, 126px)  rotate(-90deg);
+}
+
+.triangleYellow{
+    border-left: 225px solid transparent;
+    border-top: 225px solid #FED797;
+    transform: translate(180px, 190px)  rotate(120deg);
+}
+
+.trapezePurple{
+    width: 158px;
+    height: 70px;
+    background-color: #D3C0F9;
+    transform: translate(425px, 475px) rotate(196deg) skew(-45deg);
+}
+
+.triangleOrange{
+    border-left: 155px solid transparent;
+    border-top: 155px solid #ECAD8F;  
+    transform: translate(150px, 126px)  rotate(50deg);
+}
+
+.container *{
+    transition: transform 2000ms ease;
+}
+
+.dark {
+    background-size: cover;
+    background-image: url("https://images-ext-1.discordapp.net/external/X3TOFbUFJbyalmENI06HpBdDC0dGXxPun5VEAYip2mI/https/e0.pxfuel.com/wallpapers/41/392/desktop-wallpaper-cookie-monster-background-for-computer-computer-beautiful-computer-and-cute-computer.jpg?format=webp");
+}
+.dark h1{
+    color: #fff;
+}
+.dark .squareRed{
+    border-left: 113px solid #FF0300;
+    border-top: 113px solid #FF0300;
+}
+
+.dark .triangleBlue{
+    border-left: 113px solid transparent;
+    border-top: 113px solid #00D1FF;
+}
+
+.dark .triangleGreen{
+    border-left: 225px solid transparent;
+    border-top: 225px solid #00FF70;
+}
+
+.dark .triangleLime{
+    border-left: 112px solid transparent;
+    border-top: 112px solid #a4FF00;
+}
+
+.dark .triangleYellow{
+    border-left: 225px solid transparent;
+    border-top: 225px solid #FFD300;
+}
+
+.dark .trapezePurple{
+    width: 158px;
+    height: 70px;
+    background-color: #FF00E8;
+}
+
+.dark .triangleOrange{
+    border-left: 155px solid transparent;
+    border-top: 155px solid #FF8300;  
+
+}
+

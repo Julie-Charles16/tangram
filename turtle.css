@@ -1,0 +1,31 @@
+.turtle .squareRed{
+    transform:translate(703px, 170px);
+}
+
+.turtle .triangleBlue{
+    transform: translate(200px, 390px) rotate(135deg);
+}   
+
+.turtle .triangleLime{
+    transform: translate(430px, 390px)rotate(135deg);
+}   
+
+.turtle .triangleYellow {
+    transform: translate(125px, 330px) rotate(-45deg);
+}
+
+
+.turtle .triangleGreen{
+    transform: translate(290px, 170px) rotate(135deg);
+}
+
+.turtle .trapezePurple{
+    transform: translate(555px, 250px) rotate(-35deg) skew(-35deg);
+    
+}
+
+.turtle .triangleOrange{
+    transform: translate(410px, 285px) rotate(90deg);
+}
+
+
